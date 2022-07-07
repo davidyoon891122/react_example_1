@@ -10,8 +10,8 @@ function helloWorldButton() {
 
     return React.createElement(
         'button', 
-        {onclick: () => {
-
+        {onClick: () => {
+            setClickState(!isClick)
         }},
         text
     )
